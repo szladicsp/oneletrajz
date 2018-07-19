@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.07.07., 19:01:40
+    Author     : Péter
+*/
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  font-size: 15px;
+  letter-spacing: -.003em;
+  line-height: 1.58;
+}
+
+th{
+    font-size: 20px;
+}
+h1{
+    font-size: 25px;
+    
+}
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+.kep{
+    width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 600px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content,.links {
+  padding: 5% 10%;
+}
+body {
+  background: url('https://noklapja.nlcafe.hu/app/uploads/2017/06/naplemente-fekvo-nagy.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+.kep:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+p{
+  margin:30px;
+}
+
+
